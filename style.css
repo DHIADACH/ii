@@ -1,0 +1,95 @@
+#parent {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 5px;
+    height: 100vh;
+    gap: 10px;
+    }
+    .child1{
+        grid-column-start: span 2; 
+    }
+    .child2{
+        grid-row-start: span 2 ;
+        background-color: black;
+        ;
+    }
+    .child3{
+
+        background-color: rgb(225, 19, 19);
+
+    
+    }
+    .child4{ 
+        background-color: blueviolet;
+        
+    }
+    p{
+        color: grey;
+        font-size: small;
+        font-family: initial;
+    }
+    h1{ 
+        color: white;
+        font-size: medium;
+        font-family: initial;
+    }
+    h3{
+        font-size: x-large;
+    }
+
+
+
+
+@font-face{
+    font-family: inter;
+    src: url(./assets/fonts/Inter-VariableFont_slnt,wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.child img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.title{
+    color: yellow;
+}
+.title2 {
+    color: brown;
+}
+.title3 {
+    color: brown;
+}
+.title4 {
+    color: brown;
+}
+#te{
+text-align: center;
+color: antiquewhite;
+}
+.child5,.child6,.child7{
+    display: flex;
+    gap: 10px;
+    padding-left: ;
+}
